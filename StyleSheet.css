@@ -79,6 +79,19 @@ footer {
     width: 45%;
 }
 
+.act {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*#jpgl {
     float: left;
     padding-left: 5%;
@@ -99,7 +112,8 @@ footer {
     /*border: 0;*/
     /*width: 900px;*/
     /*color: #4A4A4A;*/
-    margin: 0 auto;
+
+    margin: 0;
     vertical-align: baseline;
     text-align: center;
     
@@ -108,8 +122,9 @@ footer {
     /*background-position: center center;*/
 }
 
-    .nav a {
+    /*.nav a {
         display: flex;
+        flex-wrap: nowrap;
         text-decoration: none;
         color: #4A4A4A;
     }
@@ -124,21 +139,21 @@ footer {
         .nav ul li {
             line-height: 20px;
             display: inline-block;
-            /*float: left;*/
+            /*float: left;
             padding: 0 5%;
             cursor: pointer;
             position: relative;
             align-content: space-around;
-            /*vertical-align: bottom;*/
+            vertical-align: bottom;
         }
 
-/*li {
+li {
     float: left;
     list-style: none;
     padding: 0 20px;
     cursor: pointer;
     position: relative;
-}*/
+}
 
 li::before {
     content: "";
@@ -163,13 +178,13 @@ li:hover ~ li::before {
 
 li.active {
     border-bottom: 3px solid mediumseagreen;
-}
+}*/
 
 .team img {
     width: 100%;
     border-radius: 50%;
-    /*margin: 1% 3%;
-    align-content:space-between;*/
+    margin: 1% 3%;
+    align-content:space-between;
 }
 
 .team a{
@@ -185,34 +200,37 @@ li.active {
     font-weight: bold;
 }
 
-/*.nav ul {
+
+.nav ul {
+    display: inline;
     list-style-type: none;
     overflow: hidden;
-    align-content: space-between;
+    text-align: center;
+    justify-content: space-between;
 }
 
     .nav ul li {
-        /*line-height: 22px;
+        line-height: 20px;
         display: inline-block;
-        float: left;
-        padding: 0 20px;
-        border: 5px;
-        border-right: 3px solid white;
+        position: relative;
+        padding: 1% 5%;
+        border: 3%;
         align-content: space-between;
     }
 
-.nav li:last-child {
-    border-right: none;
+.nav a {
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    text-decoration: none;
+    color: #4A4A4A;
 }
 
-        .nav ul li a:hover {
-            background-color: cornsilk;
+        .nav a:hover {
             color: mediumseagreen;
-            
-            border-color: mediumseagreen;
+            /*border: 2px solid mediumseagreen;*/
         }
 
-        a.active {
-            background-color: cornsilk;
-            border-color: mediumseagreen;
-        }*/
+        .nav a.active {
+            color: mediumseagreen;
+            /*border: 2px solid mediumseagreen;*/
+       
