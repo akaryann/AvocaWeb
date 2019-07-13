@@ -102,7 +102,7 @@ footer {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    max-height: 200px;
+    max-height: 50%;
 }
 
 /*#jpgl {
