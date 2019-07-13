@@ -96,14 +96,14 @@ footer {
     align-items: center;
 }
 
-#home3 {
+/*#home3 {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     flex-basis: 50%;
-}
+}*/
 
 /*#jpgl {
     float: left;
