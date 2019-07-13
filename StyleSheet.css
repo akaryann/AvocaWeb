@@ -96,19 +96,15 @@ footer {
     align-items: center;
 }
 
-#intro3 {
+.intro3 {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    /*-webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;*/
-    max-width: 43%;
+    align-items: center;
+    width: 43%;
 }
 
 /*#jpgl {
