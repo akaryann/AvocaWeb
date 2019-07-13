@@ -96,15 +96,7 @@ footer {
     align-items: center;
 }
 
-.intro3 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#intro3 {
     width: 43%;
 }
 
