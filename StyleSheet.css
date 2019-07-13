@@ -108,7 +108,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;*/
-    flex-basis: 43%;
+    max-width: 43%;
 }
 
 /*#jpgl {
